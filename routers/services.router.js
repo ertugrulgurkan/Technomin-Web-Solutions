@@ -10,7 +10,7 @@ router.get('/', async (req, res) => {
 
   if (services) {
     res.render('services', {
-      pageTitle: 'Services',
+      title: 'Services',
       services: JSON.parse(services),
     });
   }
