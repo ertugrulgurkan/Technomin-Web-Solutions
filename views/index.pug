@@ -1,0 +1,77 @@
+extends layout
+
+block content
+  .jumbotron.jumbotron-fluid
+    .container
+      .row.pl-3.pr-3
+        .col-md-7
+          h1.display-4 İletişim Dünyasındaki Yerinizi Alın!
+          p.lead
+            | Technomin Web Solutions Sizin için Muhteşem çözümler sunuyor.
+          a.btn.btn-primary.btn-lg(href='/contact') Hemen İletişime Geçin!  
+        .col-md-5
+          img(src='images/solution.png')
+  h1.text-center Sizin İçin Çözümlerimiz
+  .row
+    .col-md-4
+      .card
+        .card-body
+          h3 Web Tasarım
+          p
+            |  - Web Site Tasarımı 
+            br
+            |  - Uygulama Arayüzleri
+            br
+            |  - Logo&Amblem Tasarımı
+            br
+            |  - Kurumsal Website Tasarımı
+            br
+            |  - E-Ticaret Sistemi ve Tasarımı
+    .col-md-4
+      .card
+        .card-body
+          h3 Web Yazılım
+          p
+            | - Web Yazılım Geliştirme 
+            br
+            |  - E-Ticaret Yazılımları 
+            br
+            |  - Online Sipariş Yazılımları
+            br
+            |  - İçerik Yönetim Sistemi (CRM)
+            br
+            |  - Sosyal Medya Uygulamaları
+    .col-md-4
+      .card
+        .card-body
+          h3 Mobil Uygulamalar / Mobil Web Sitesi
+          p
+            | - iPhone, iPad yazılımları 
+            br
+            | - Mobil web siteleri
+            br
+            | - Responsive Tasarımlar
+            br
+            | - Mobil bannerlar, Mobil Rich Media bannerlar
+  hr
+  h1.text-center Ekibimiz
+  div.container-team
+    each person in people
+      div.person
+        div.person-image(style=`background: url('/images/${person.imgSrc}') top center
+        no-repeat; background-size: cover;`)
+        h2.person-name
+          | #{person.firstname} #{person.lastname}
+        a(href=`/profile?id=${person.id}`)
+          | Profili Gör
+  h1.text-center Haberlerimiz
+  .row
+    each post in posts
+      .col-md-4
+         .card
+           .card-body
+             h3 #{post.subject}
+             p
+               |  #{post.post}
+            
+

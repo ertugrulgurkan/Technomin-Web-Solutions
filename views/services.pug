@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1 Servislerimiz
+  
+  each service, i in services
+    .card.mb-3
+      .card-body
+        i(class=service.class) 
+        h3 #{service.name}
+        p #{service.description}
+        

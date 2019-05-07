@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Tasarım",
+    "description": "Kurumsal Kimliğinize en uygun mobil uyumlu responsive web tasarımı",
+    "class":"fas fa-laptop fa-3x"
+  },
+  {
+    "name": "Yazılım Geliştirme",
+    "description": "İsteklerinize göre geliştirilmiş özel yazılımlar",
+    "class":"fas fa-code fa-3x"
+  },
+  {
+    "name": "E-Ticaret",
+    "description": "E-ticaret siteniz sadece size özel yapıda hazırlansın",
+    "class":"fas fa-store fa-3x"
+  },
+  {
+    "name": "Sosyal Medya Yönetimi",
+    "description": "Facebook, Instagram, Twitter ve Google Business ürünlerinin yönetimi",
+    "class":"fas fa-users fa-3x"
+  },
+  {
+    "name": "Bakım Anlaşması",
+    "description": "Sitenizi bizim yönetimimize güvenle bırakabilirsiniz.",
+    "class":"fas fa-headphones-alt fa-3x"
+  },
+  {
+    "name": "Kurumsal Kimlik",
+    "description": "Facebook, Instagram, Twitter ve Google Business ürünlerinin yönetimi",
+    "class":"fas fa-chart-line fa-3x"
+  }
+]

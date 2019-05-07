@@ -1,0 +1,35 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+    link(rel='stylesheet', href='https://use.fontawesome.com/releases/v5.8.1/css/all.css', integrity='sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf', crossorigin='anonymous')
+    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js')
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js")
+  body
+    nav.navbar.navbar-expand-lg.navbar-dark.bg-dark.static-top
+      .container
+        a.navbar-brand(href='/') Technomin Web Solutions
+        button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarResponsive.collapse.navbar-collapse
+          ul.navbar-nav.ml-auto
+            li(class=pageTitle=='Home' ? 'active' : undefined)
+              a.nav-link(href='/')
+                | Anasayfa
+                span.sr-only (current)
+            li.nav-item(class=pageTitle=='About' ? 'active' : undefined)
+              a.nav-link(href='/about') Hakkımızda
+            li.nav-item(class=pageTitle=='Services' ? 'active' : undefined)
+              a.nav-link(href='/services') Servislerimiz
+            li.nav-item(class=pageTitle=='Contact' ? 'active' : undefined)
+              a.nav-link(href='/contact') İletişim
+    .container.mt-4
+      block content
+      
+      script(src='/javascripts/jquery-3.3.1.min.js')
+      script(src='/javascripts/bootstrap.min.js')
+      hr
+      footer
+        p Technomin Web Solutions &copy; 2018

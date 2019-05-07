@@ -1,0 +1,37 @@
+{
+    "profiles": [
+      {
+        "firstname": "Tom",
+        "lastname": "Jagger",
+        "bio":
+          "Bilgisayar Bilimlerinde yüksek lisans eğitimine devam etmektedir.Çeşitli web geliştirme görevinde bulunduktan sonra 2017 yılında bünyemizde görev almaya başlamıştır.",
+        "tagline": "Design Specialist, Test Engineer",
+        "twitter": "https://twitter.com/",
+        "imgSrc": "tom-jagger.jpg",
+        "id": "tom"
+      },
+  
+      {
+        "firstname": "Sarah",
+        "lastname": "You",
+        "bio":
+          "Northeastern Üniversitesi Bilgisayar mühendisliği bölümünden mezun olmuştur. MIT’de yardımcı araştırmacı olarak çalıştıktan sonra çeşitli firmalarda IOS geliştirmeleri yapmış olup 2017 yılında ailemize katılmıştır. Çalışmalarını Mobil geliştirme departmanında devam ettirmektedir.",
+        "tagline": "Mobile Developer",
+        "twitter": "https://twitter.com/",
+        "imgSrc": "sarah-you.jpg",
+        "id": "sarah"
+      },
+  
+      {
+        "firstname": "Caroline",
+        "lastname": "Green",
+        "bio":
+          "Bilgisayar Mühendisliği lisans programından mezun olduktan sonra Yüksek lisans programınıda Bilgisayar Mühendisliği dalından devam ettirmektedir. 2016 yılında ailemize katılmış olup çalışmalarını masaüstü web geliştirme makine öğrenmesi, derin öğrenme alanlarında sürdürmektedir.",
+        "tagline": "Software Specialist",
+        "twitter": "https://twitter.com/",
+        "imgSrc": "caroline-green.jpg",
+        "id": "caroline"
+      }
+    ]
+  }
+  
